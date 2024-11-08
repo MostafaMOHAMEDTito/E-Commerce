@@ -104,7 +104,7 @@ export default function Products() {
         </div>
         <div className="row gy-1">
           {filteredProducts.map((product, index) => (
-            <div key={index} className="col-md-2">
+            <div key={index} className="col-md-2 col-sm-1">
               <div className="product">
                 <Link to={`/ProductDetails/${product.id}`}>
                   <div className="">
